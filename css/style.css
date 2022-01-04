@@ -1,6 +1,7 @@
 body {
     /* Mudar cor do fundo */
-    background-color: #000000!important;
+    background: rgb(0,226,248);
+    background: linear-gradient(42deg, rgba(0,226,248,1) 0%, rgba(1,83,131,1) 50%, rgba(0,212,255,1) 100%);
     /* Mudar família da fonte */
     font-family:'Montserrat', sans-serif!important;
     /* Mudar cor da fonte */
@@ -65,7 +66,7 @@ body {
 .botao:hover {
     /* Cor do texto e fundo - Quando tem link */
     color: #ffffff;
-    background-color: #e7323f;
+    background-color: #015383;
 }
 
 /* SOCIAL */
@@ -81,7 +82,7 @@ body {
 .social a:hover {
     /* Cor do ícone - Quando tem link */
     text-decoration: none;
-    color: #e7323f;
+    color: #015383;
 }
 
 .social ul li {
@@ -103,5 +104,5 @@ footer a {
 }
 
 footer a:hover {
-    color: #e7323f;
+    color: #015383;
 }
