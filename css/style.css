@@ -5,11 +5,16 @@ body {
     /* Mudar família da fonte */
     font-family:'Montserrat', sans-serif!important;
     /* Mudar cor da fonte */
-    color: #ffffff!important;
+    color: #8c62a3!important;
     /* Não alterar */
     font-size: 1.1rem!important;
     line-height: 1.5rem!important;
     text-align: center!important;
+    background-image: url("../img/fundo.png");
+    background-color: rgba(64, 118, 182, 1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
 }
 
 .container-fluid {
@@ -48,9 +53,9 @@ body {
 /* BOTÃO */
 .botao {
     /* Mudar cor da fonte do botão */
-    color: #000000;
+    color: #FFFFFF;
     /* Mudar cor de fundo do botão */
-    background-color: #ffffff;
+    background-color: #8c62a3;
     /* Não alterar */
     max-width: 100%;
     min-height: 2.2rem;
@@ -65,8 +70,8 @@ body {
 
 .botao:hover {
     /* Cor do texto e fundo - Quando tem link */
-    color: #ffffff;
-    background-color: #015383;
+    color: #8c62a3;
+    background-color: #FFFFFF;
 }
 
 /* SOCIAL */
@@ -76,13 +81,13 @@ body {
 .social a {
     text-decoration: none;
     /* Mudar cor da fonte do ícone */
-    color: #ffffff;
+    color: #8c62a3;
 }
 
 .social a:hover {
     /* Cor do ícone - Quando tem link */
     text-decoration: none;
-    color: #015383;
+    color: #FFFFFF;
 }
 
 .social ul li {
@@ -100,7 +105,7 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: #ffffff;
+    color: #8c62a3;
 }
 
 footer a:hover {
